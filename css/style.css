@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Catamaran", sans-serif;
 }
 
@@ -25,7 +26,7 @@ button {
   background: #99baed;
   border-radius: 20px;
   -webkit-box-shadow: 0 0 50px rgba(153, 186, 237, 0.5);
-          box-shadow: 0 0 50px rgba(153, 186, 237, 0.5);
+  box-shadow: 0 0 50px rgba(153, 186, 237, 0.5);
   border: none;
   width: 188px;
   height: 76px;
@@ -36,8 +37,8 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-left: calc(30px + (178 - 30) * ((100vw - 890px) / (1920 - 890)));
   /* @include adaptiv-value("margin-left", 178, 15, 0); */
   margin-right: 20px;
@@ -45,21 +46,16 @@ button {
 }
 
 .home main .logo {
-  margin-right: calc(
- 24px + (110 - 24) * ((100vw - 890px) / (1920 - 890)));
+  margin-right: calc(24px + (110 - 24) * ((100vw - 890px) / (1920 - 890)));
   /* @include adaptiv-value("margin-right", 110, 12, 0); */
 }
 
 .home main .logo img {
-  width: calc(
- 103px +
- 52 *
- ((100vw - 320px) / 1600));
+  width: calc(103px + 52 * ((100vw - 320px) / 1600));
 }
 
 .home main nav {
-  margin-right: calc(
- 25px + (400 - 25) * ((100vw - 890px) / (1920 - 890)));
+  margin-right: calc(25px + (400 - 25) * ((100vw - 890px) / (1920 - 890)));
   /* @include adaptiv-value("margin-right", 30, 10, 0); */
 }
 
@@ -71,8 +67,7 @@ button {
 }
 
 .home main nav ul li {
-  margin-right: calc(
- 10px + (48 - 10) * ((100vw - 890px) / (1920 - 890)));
+  margin-right: calc(10px + (48 - 10) * ((100vw - 890px) / (1920 - 890)));
   /* @include adaptiv-value("margin-right", 48, 20, 0); */
 }
 
@@ -94,8 +89,7 @@ button {
 
 .home main .icons img {
   /* @include adaptiv-value("margin-right", 72, 30, 0); */
-  margin-right: calc(
- 10px + (72 - 10) * ((100vw - 320px) / (1920 - 320)));
+  margin-right: calc(10px + (72 - 10) * ((100vw - 320px) / (1920 - 320)));
   cursor: pointer;
 }
 
@@ -104,34 +98,24 @@ button {
 }
 
 .home main .buttn {
-  margin-left: calc(
- 15px + (72 - 15) * ((100vw - 768px) / (1920 - 768)));
+  margin-left: calc(15px + (72 - 15) * ((100vw - 768px) / (1920 - 768)));
 }
 
 .home .content {
-  margin-top: calc(
- 20px +
- 43 *
- ((100vw - 320px) / 1600));
+  margin-top: calc(20px + 43 * ((100vw - 320px) / 1600));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .home .content .left {
   /* @include adaptiv-value("width", 576, 300, 0); */
   width: 576px;
-  margin-left: calc(
- 10px +
- 178 *
- ((100vw - 320px) / 1600));
-  margin-right: calc(
- 0px +
- 38 *
- ((100vw - 320px) / 1600));
+  margin-left: calc(10px + 178 * ((100vw - 320px) / 1600));
+  margin-right: calc(0px + 38 * ((100vw - 320px) / 1600));
 }
 
 .home .content .left h1 {
@@ -139,10 +123,7 @@ button {
   font-size: 75px;
   line-height: 100px;
   color: #163561;
-  margin-bottom: calc(
- 15px +
- 14 *
- ((100vw - 320px) / 1600));
+  margin-bottom: calc(15px + 14 * ((100vw - 320px) / 1600));
   width: 576px;
 }
 
@@ -157,10 +138,7 @@ button {
   letter-spacing: 0.03em;
   color: #153461;
   opacity: 0.65;
-  margin-bottom: calc(
- 30px +
- 67 *
- ((100vw - 320px) / 1600));
+  margin-bottom: calc(30px + 67 * ((100vw - 320px) / 1600));
 }
 
 .home .content .right {
@@ -181,26 +159,32 @@ button {
   .home main {
     margin-left: 30px;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
+
   .home main nav {
     display: none;
   }
+
   .home main .buttn {
     display: none;
   }
+
   .home .content {
     display: block;
     margin-right: 10px;
   }
+
   .home .content .left {
     text-align: center;
     margin: 0 auto;
   }
+
   .home .content .right {
     max-width: 890px;
   }
+
   .home .content .right img {
     display: block;
     max-width: 890px;
@@ -211,6 +195,7 @@ button {
   .home main {
     margin-left: 20px;
   }
+
   .home main .icons img {
     width: 38px;
   }
