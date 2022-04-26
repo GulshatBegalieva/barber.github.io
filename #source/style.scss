@@ -9,6 +9,7 @@
 
 body {
     overflow-x: hidden;
+    background: #ccc;
 }
 
 $maxwidth: 1920;
@@ -146,7 +147,7 @@ button {
             line-height: 100px;
             color: #163561;
             @include adaptiv-value("margin-bottom", 29, 15, 0);
-            
+
             width: 576px;
         }
         span {
@@ -165,13 +166,12 @@ button {
     }
 
     .right {
-        float: right;
         /* @include adaptiv-value("width", 1234, 320, 0);
         @include adaptiv-value("height", 821, 500, 0); */
-        
+
         /* background: url("../images/img//home_img.png") no-repeat;
         background-size: 100%; */
-        
+        overflow-x: hidden;
         img {
             width: 1234px;
             height: 821px;
@@ -190,6 +190,21 @@ button {
             }
             .buttn {
                 display: none;
+            }
+        }
+        .content {
+            display: block;
+            margin-right: 10px;
+            .left {
+                text-align: center;
+                margin: 0 auto;
+            }
+            .right {
+                max-width: 890px;
+                img {
+                    display: block;
+                    max-width: 890px;
+                }
             }
         }
     }
