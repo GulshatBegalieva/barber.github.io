@@ -44,16 +44,21 @@ button {
 }
 
 .home main .logo {
-  margin-right: calc( 24px + (110 - 24) * ((100vw - 890px) / (1920 - 890)));
+  margin-right: calc(
+ 24px + (110 - 24) * ((100vw - 890px) / (1920 - 890)));
   /* @include adaptiv-value("margin-right", 110, 12, 0); */
 }
 
 .home main .logo img {
-  width: calc( 103px + 52 * ((100vw - 320px) / 1600));
+  width: calc(
+ 103px +
+ 52 *
+ ((100vw - 320px) / 1600));
 }
 
 .home main nav {
-  margin-right: calc( 25px + (400 - 25) * ((100vw - 890px) / (1920 - 890)));
+  margin-right: calc(
+ 25px + (400 - 25) * ((100vw - 890px) / (1920 - 890)));
   /* @include adaptiv-value("margin-right", 30, 10, 0); */
 }
 
@@ -65,7 +70,8 @@ button {
 }
 
 .home main nav ul li {
-  margin-right: calc( 10px + (48 - 10) * ((100vw - 890px) / (1920 - 890)));
+  margin-right: calc(
+ 10px + (48 - 10) * ((100vw - 890px) / (1920 - 890)));
   /* @include adaptiv-value("margin-right", 48, 20, 0); */
 }
 
@@ -87,7 +93,8 @@ button {
 
 .home main .icons img {
   /* @include adaptiv-value("margin-right", 72, 30, 0); */
-  margin-right: calc( 10px + (72 - 10) * ((100vw - 320px) / (1920 - 320)));
+  margin-right: calc(
+ 10px + (72 - 10) * ((100vw - 320px) / (1920 - 320)));
   cursor: pointer;
 }
 
@@ -96,11 +103,15 @@ button {
 }
 
 .home main .buttn {
-  margin-left: calc( 15px + (72 - 15) * ((100vw - 768px) / (1920 - 768)));
+  margin-left: calc(
+ 15px + (72 - 15) * ((100vw - 768px) / (1920 - 768)));
 }
 
 .home .content {
-  margin-top: calc( 35px + 28 * ((100vw - 320px) / 1600));
+  margin-top: calc(
+ 35px +
+ 28 *
+ ((100vw - 320px) / 1600));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,22 +121,43 @@ button {
 }
 
 .home .content .left {
-  width: calc( 300px + 276 * ((100vw - 320px) / 1600));
+  width: calc(
+ 300px +
+ 276 *
+ ((100vw - 320px) / 1600));
   /* width: 576px; */
-  margin-left: calc( 0px + 178 * ((100vw - 320px) / 1600));
-  margin-right: calc( 0px + 38 * ((100vw - 320px) / 1600));
+  margin-left: calc(
+ 0px +
+ 178 *
+ ((100vw - 320px) / 1600));
+  margin-right: calc(
+ 0px +
+ 38 *
+ ((100vw - 320px) / 1600));
 }
 
 .home .content .left h1 {
   font-weight: 700;
   /* font-size: 75px; */
-  font-size: calc( 35px + 40 * ((100vw - 320px) / 1600));
-  line-height: calc( 50px + 50 * ((100vw - 320px) / 1600));
+  font-size: calc(
+ 35px +
+ 40 *
+ ((100vw - 320px) / 1600));
+  line-height: calc(
+ 50px +
+ 50 *
+ ((100vw - 320px) / 1600));
   /* line-height: 100px; */
   color: #163561;
-  margin-bottom: calc( 15px + 14 * ((100vw - 320px) / 1600));
+  margin-bottom: calc(
+ 15px +
+ 14 *
+ ((100vw - 320px) / 1600));
   /* width: 576px; */
-  width: calc( 300px + 276 * ((100vw - 320px) / 1600));
+  width: calc(
+ 300px +
+ 276 *
+ ((100vw - 320px) / 1600));
 }
 
 .home .content .left span {
@@ -139,7 +171,10 @@ button {
   letter-spacing: 0.03em;
   color: #153461;
   opacity: 0.65;
-  margin-bottom: calc( 38px + 59 * ((100vw - 320px) / 1600));
+  margin-bottom: calc(
+ 38px +
+ 59 *
+ ((100vw - 320px) / 1600));
 }
 
 .home .content .right {
@@ -148,12 +183,21 @@ button {
   background: url("../images/img//home_img.png") no-repeat;
   background-size: cover;
   overflow-x: hidden;
-  width: calc( 318px + 916 * ((100vw - 320px) / 1600));
-  height: calc( 280px + 541 * ((100vw - 320px) / 1600));
+  width: calc(
+ 318px +
+ 916 *
+ ((100vw - 320px) / 1600));
+  height: calc(
+ 280px +
+ 541 *
+ ((100vw - 320px) / 1600));
 }
 
 .history {
-  margin-top: calc( 30px + 19 * ((100vw - 320px) / 1600));
+  margin-top: calc(
+ 30px +
+ 19 *
+ ((100vw - 320px) / 1600));
   position: relative;
 }
 
@@ -172,18 +216,32 @@ button {
 }
 
 .history .content .text {
-  width: calc( 300px + 226 * ((100vw - 320px) / 1600));
-  margin-left: calc( 0px + (149 - 0) * ((100vw - 890px) / (1920 - 890)));
-  margin-right: calc( 0px + (195 - 0) * ((100vw - 890px) / (1920 - 890)));
+  width: calc(
+ 300px +
+ 226 *
+ ((100vw - 320px) / 1600));
+  margin-left: calc(
+ 0px + (149 - 0) * ((100vw - 890px) / (1920 - 890)));
+  margin-right: calc(
+ 0px + (195 - 0) * ((100vw - 890px) / (1920 - 890)));
   z-index: 10;
 }
 
 .history .content .text h1 {
   font-weight: 700;
-  font-size: calc( 35px + 35 * ((100vw - 320px) / 1600));
-  line-height: calc( 50px + 55 * ((100vw - 320px) / 1600));
+  font-size: calc(
+ 35px +
+ 35 *
+ ((100vw - 320px) / 1600));
+  line-height: calc(
+ 50px +
+ 55 *
+ ((100vw - 320px) / 1600));
   color: #163561;
-  margin-bottom: calc( 10px + 70 * ((100vw - 320px) / 1600));
+  margin-bottom: calc(
+ 10px +
+ 70 *
+ ((100vw - 320px) / 1600));
   letter-spacing: 0.03em;
   /*  @include adaptiv-value("width", 576, 300, 0); */
 }
@@ -199,18 +257,30 @@ button {
   letter-spacing: 0.03em;
   color: #153461;
   opacity: 0.65;
-  margin-bottom: calc( 15px + 33 * ((100vw - 320px) / 1600));
+  margin-bottom: calc(
+ 15px +
+ 33 *
+ ((100vw - 320px) / 1600));
 }
 
 .history .content .text .two {
-  margin-bottom: calc( 30px + 78 * ((100vw - 320px) / 1600));
+  margin-bottom: calc(
+ 30px +
+ 78 *
+ ((100vw - 320px) / 1600));
 }
 
 .history .content .picture {
   background: url("../images/img/history_img.png") no-repeat;
   background-size: cover;
-  width: calc( 320px + 648 * ((100vw - 320px) / 1600));
-  height: calc( 320px + 648 * ((100vw - 320px) / 1600));
+  width: calc(
+ 320px +
+ 648 *
+ ((100vw - 320px) / 1600));
+  height: calc(
+ 320px +
+ 648 *
+ ((100vw - 320px) / 1600));
 }
 
 .history .bd1 {
@@ -228,9 +298,18 @@ button {
 .service {
   /* padding-left: 50px;
     padding-right: 50px; */
-  padding-top: calc( 35px + 99 * ((100vw - 320px) / 1600));
-  padding-left: calc( 10px + 239 * ((100vw - 320px) / 1600));
-  padding-right: calc( 10px + 244 * ((100vw - 320px) / 1600));
+  padding-top: calc(
+ 35px +
+ 99 *
+ ((100vw - 320px) / 1600));
+  padding-left: calc(
+ 10px +
+ 239 *
+ ((100vw - 320px) / 1600));
+  padding-right: calc(
+ 10px +
+ 244 *
+ ((100vw - 320px) / 1600));
   position: relative;
 }
 
@@ -241,7 +320,10 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: #163561;
-  margin-bottom: calc( 30px + 55 * ((100vw - 320px) / 1600));
+  margin-bottom: calc(
+ 30px +
+ 55 *
+ ((100vw - 320px) / 1600));
 }
 
 .service h1 span {
@@ -258,10 +340,16 @@ button {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   /* width: 1417px; */
-  width: calc( 300px + 1117 * ((100vw - 320px) / 1600));
+  width: calc(
+ 300px +
+ 1117 *
+ ((100vw - 320px) / 1600));
   margin: 0 auto;
   /* padding-bottom: 270px; */
-  padding-bottom: calc( 75px + 195 * ((100vw - 320px) / 1600));
+  padding-bottom: calc(
+ 75px +
+ 195 *
+ ((100vw - 320px) / 1600));
   gap: 50px;
   z-index: 5;
   /* @include adaptiv-value("gap", 45, 10, 0); */
@@ -269,9 +357,15 @@ button {
 
 .service .content .item {
   /* width: 441px; */
-  width: calc( 300px + 141 * ((100vw - 320px) / 1600));
+  width: calc(
+ 300px +
+ 141 *
+ ((100vw - 320px) / 1600));
   /* height: 533px; */
-  height: calc( 400px + 133 * ((100vw - 320px) / 1600));
+  height: calc(
+ 400px +
+ 133 *
+ ((100vw - 320px) / 1600));
   background: #fafbff;
   -webkit-box-shadow: 0px 5px 0px #99baed;
           box-shadow: 0px 5px 0px #99baed;
@@ -297,8 +391,14 @@ button {
   border-radius: 13px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: calc( 40px + 10 * ((100vw - 320px) / 1600));
-  margin-bottom: calc( 24px + 35 * ((100vw - 320px) / 1600));
+  margin-top: calc(
+ 40px +
+ 10 *
+ ((100vw - 320px) / 1600));
+  margin-bottom: calc(
+ 24px +
+ 35 *
+ ((100vw - 320px) / 1600));
 }
 
 .service .content .item .text .top {
@@ -309,7 +409,10 @@ button {
   letter-spacing: 0.03em;
   color: #163561;
   opacity: 1;
-  margin-bottom: calc( 20px + 40 * ((100vw - 320px) / 1600));
+  margin-bottom: calc(
+ 20px +
+ 40 *
+ ((100vw - 320px) / 1600));
 }
 
 .service .content .item .text p {
@@ -323,21 +426,36 @@ button {
 }
 
 .service .content .item .text .bottom {
-  width: calc( 280px + 79 * ((100vw - 320px) / 1600));
+  width: calc(
+ 280px +
+ 79 *
+ ((100vw - 320px) / 1600));
   margin: 0 auto;
 }
 
 .service .content .item .blur {
   /* width: 368px;
                 height: 447px; */
-  height: calc( 400px + 47 * ((100vw - 320px) / 1600));
-  width: calc( 270px + 98 * ((100vw - 320px) / 1600));
+  height: calc(
+ 400px +
+ 47 *
+ ((100vw - 320px) / 1600));
+  width: calc(
+ 270px +
+ 98 *
+ ((100vw - 320px) / 1600));
   z-index: -1;
   position: absolute;
   /* top: 125px;
                 left: 96px; */
-  top: calc( 30px + 95 * ((100vw - 320px) / 1600));
-  left: calc( 30px + 66 * ((100vw - 320px) / 1600));
+  top: calc(
+ 30px +
+ 95 *
+ ((100vw - 320px) / 1600));
+  left: calc(
+ 30px +
+ 66 *
+ ((100vw - 320px) / 1600));
 }
 
 .service .content .item:hover {
@@ -352,8 +470,10 @@ button {
 .service .content .item:hover .blur {
   background: #d5e5ff;
   /* filter: blur(94px); */
-  -webkit-filter: blur(calc( 34px + (94 - 34) * ((100vw - 320px) / (1920 - 320))));
-          filter: blur(calc( 34px + (94 - 34) * ((100vw - 320px) / (1920 - 320))));
+  -webkit-filter: blur(calc(
+ 34px + (94 - 34) * ((100vw - 320px) / (1920 - 320))));
+          filter: blur(calc(
+ 34px + (94 - 34) * ((100vw - 320px) / (1920 - 320))));
 }
 
 .service .bd1 {
@@ -402,8 +522,14 @@ button {
 }
 
 .gallery .content {
-  margin-top: calc( 40px + 70 * ((100vw - 320px) / 1600));
-  width: calc( 300px + 1079 * ((100vw - 320px) / 1600));
+  margin-top: calc(
+ 40px +
+ 70 *
+ ((100vw - 320px) / 1600));
+  width: calc(
+ 300px +
+ 1079 *
+ ((100vw - 320px) / 1600));
   margin-left: auto;
   margin-right: auto;
   display: -webkit-box;
@@ -411,17 +537,24 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: calc( 26px + 11 * ((100vw - 320px) / 1600));
+  gap: calc(
+ 26px +
+ 11 *
+ ((100vw - 320px) / 1600));
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 .gallery .content .item {
-  /* width: 435px;
-            height: 435px; */
-  width: calc( 300px + 135 * ((100vw - 320px) / 1600));
-  height: calc( 300px + 135 * ((100vw - 320px) / 1600));
+  width: calc(
+ 300px +
+ 135 *
+ ((100vw - 320px) / 1600));
+  height: calc(
+ 300px +
+ 135 *
+ ((100vw - 320px) / 1600));
   background-size: cover;
 }
 
@@ -462,18 +595,30 @@ button {
 
 footer {
   position: relative;
-  margin-top: calc( 70px + 115 * ((100vw - 320px) / 1600));
-  padding-bottom: calc( 30px + 68 * ((100vw - 320px) / 1600));
+  margin-top: calc(
+ 70px +
+ 115 *
+ ((100vw - 320px) / 1600));
+  padding-bottom: calc(
+ 30px +
+ 68 *
+ ((100vw - 320px) / 1600));
 }
 
 footer .wrapper {
-  width: calc( 300px + 1062 * ((100vw - 320px) / 1600));
+  width: calc(
+ 300px +
+ 1062 *
+ ((100vw - 320px) / 1600));
   border-bottom: 1px solid #99baed;
   margin: 0 auto;
 }
 
 footer .content {
-  width: calc( 280px + 248 * ((100vw - 320px) / 1600));
+  width: calc(
+ 280px +
+ 248 *
+ ((100vw - 320px) / 1600));
   text-align: center;
   margin: 0 auto 47px;
 }
@@ -486,8 +631,14 @@ footer .content p {
   letter-spacing: 0.03em;
   color: #153461;
   opacity: 0.65;
-  margin-top: calc( 25px + 11 * ((100vw - 320px) / 1600));
-  margin-bottom: calc( 25px + 22 * ((100vw - 320px) / 1600));
+  margin-top: calc(
+ 25px +
+ 11 *
+ ((100vw - 320px) / 1600));
+  margin-bottom: calc(
+ 25px +
+ 22 *
+ ((100vw - 320px) / 1600));
 }
 
 footer .content .items {
@@ -498,7 +649,10 @@ footer .content .items {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: calc( 300px + 228 * ((100vw - 320px) / 1600));
+  width: calc(
+ 300px +
+ 228 *
+ ((100vw - 320px) / 1600));
 }
 
 footer .content .items .item {
@@ -553,7 +707,10 @@ footer .bd2 {
 
 @media screen and (min-width: 1921px) {
   .service h1 {
-    font-size: calc( 37px + 33 * ((100vw - 320px) / 1600));
+    font-size: calc(
+ 37px +
+ 33 *
+ ((100vw - 320px) / 1600));
   }
   .service h1 br {
     display: none;
@@ -565,14 +722,26 @@ footer .bd2 {
     overflow-x: hidden;
   }
   .history .bd1 {
-    left: calc( -108px + 108 * ((100vw - 320px) / 1600));
+    left: calc(
+ -108px +
+ 108 *
+ ((100vw - 320px) / 1600));
   }
   .history .bd2 {
-    right: calc( -180px + 180 * ((100vw - 320px) / 1600));
+    right: calc(
+ -180px +
+ 180 *
+ ((100vw - 320px) / 1600));
   }
   footer .content .items .item {
-    width: calc( 49px + 18 * ((100vw - 320px) / 1600));
-    height: calc( 49px + 18 * ((100vw - 320px) / 1600));
+    width: calc(
+ 49px +
+ 18 *
+ ((100vw - 320px) / 1600));
+    height: calc(
+ 49px +
+ 18 *
+ ((100vw - 320px) / 1600));
   }
   footer .content .items .item img {
     width: 50%;
@@ -619,16 +788,18 @@ footer .bd2 {
     -webkit-backdrop-filter: blur(1rem);
             backdrop-filter: blur(1rem);
     z-index: 1000;
-    width: calc( 235px + (280 - 235) * ((100vw - 320px) / (890 - 320)));
-    height: 500px;
+    width: calc(
+ 235px + (280 - 235) * ((100vw - 320px) / (890 - 320)));
+    height: 100%;
     margin: 0;
   }
   .home main nav ul {
     display: block;
-    margin-top: 88px;
+    margin-top: 110px;
     margin-right: 0;
     margin-bottom: 0;
-    margin-left: calc( 73px + (95 - 73) * ((100vw - 320px) / (890 - 320)));
+    margin-left: calc(
+ 73px + (95 - 73) * ((100vw - 320px) / (890 - 320)));
   }
   .home main nav ul li {
     margin-bottom: 16px;
@@ -676,12 +847,17 @@ footer .bd2 {
     margin: 0 auto 30px;
   }
   .home .content .left p {
-    line-height: calc( 32px + 6 * ((100vw - 320px) / 1600));
+    line-height: calc(
+ 32px +
+ 6 *
+ ((100vw - 320px) / 1600));
   }
   .home .content .right {
     /* @include adaptiv-value("width", 890, 320, 0); */
-    width: calc( 320px + (500 - 300) * ((100vw - 320px) / (890 - 320)));
-    height: calc( 300px + (300 - 300) * ((100vw - 320px) / (890 - 320)));
+    width: calc(
+ 320px + (500 - 300) * ((100vw - 320px) / (890 - 320)));
+    height: calc(
+ 300px + (300 - 300) * ((100vw - 320px) / (890 - 320)));
     margin: 0 auto;
     background-size: contain;
     background-position: 50%;
@@ -694,13 +870,16 @@ footer .bd2 {
   .history .content .text {
     margin: 0 auto;
     text-align: center;
-    width: calc( 300px + (790 - 300) * ((100vw - 320px) / (890 - 320)));
+    width: calc(
+ 300px + (790 - 300) * ((100vw - 320px) / (890 - 320)));
     margin-bottom: 30px;
     /* @include adaptiv-value("width", 790, 300, 0); */
   }
   .history .content .picture {
-    width: calc( 300px + (500 - 300) * ((100vw - 320px) / (890 - 320)));
-    height: calc( 300px + (500 - 300) * ((100vw - 320px) / (890 - 320)));
+    width: calc(
+ 300px + (500 - 300) * ((100vw - 320px) / (890 - 320)));
+    height: calc(
+ 300px + (500 - 300) * ((100vw - 320px) / (890 - 320)));
     margin: 0 auto;
   }
   .history .bd1,
@@ -721,17 +900,22 @@ footer .bd2 {
   .service h1 {
     /* @include adaptiv-value("font-size", 70, 37, 0); */
     font-size: calc(38px + (70 - 37) * ((100vw - 320px) / (768 - 320)));
-    line-height: calc( 50px + (82 - 50) * ((100vw - 320px) / (768 - 320)));
+    line-height: calc(
+ 50px + (82 - 50) * ((100vw - 320px) / (768 - 320)));
   }
   .service .content .item .text .icon {
     /* @include adaptiv-value("width", 103, 94, 0);
                 @include adaptiv-value("height", 126, 95, 0); */
-    width: calc( 94px + (103 - 94) * ((100vw - 320px) / (768 - 320)));
-    height: calc( 95px + (126 - 95) * ((100vw - 320px) / (768 - 320)));
+    width: calc(
+ 94px + (103 - 94) * ((100vw - 320px) / (768 - 320)));
+    height: calc(
+ 95px + (126 - 95) * ((100vw - 320px) / (768 - 320)));
   }
   .service .content .item .text p {
-    font-size: calc( 24px + (25 - 24) * ((100vw - 320px) / (768 - 320)));
-    line-height: calc( 35px + (38 - 35) * ((100vw - 320px) / (768 - 320)));
+    font-size: calc(
+ 24px + (25 - 24) * ((100vw - 320px) / (768 - 320)));
+    line-height: calc(
+ 35px + (38 - 35) * ((100vw - 320px) / (768 - 320)));
   }
   .gallery h1 {
     font-size: calc(52px + (68 - 52) * ((100vw - 320px) / (768 - 320)));
